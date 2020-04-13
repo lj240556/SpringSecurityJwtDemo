@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.AdvertisementMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Advertisement">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="adName" jdbcType="VARCHAR" property="adname" />
+    <result column="adAddr" jdbcType="VARCHAR" property="adaddr" />
+    <result column="des" jdbcType="VARCHAR" property="des" />
+    <result column="rtime" jdbcType="TIMESTAMP" property="rtime" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="citme" jdbcType="VARCHAR" property="citme" />
+    <result column="isdel" jdbcType="BIT" property="isdel" />
+  </resultMap>
+</mapper>

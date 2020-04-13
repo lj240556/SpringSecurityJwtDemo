@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.LogMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Log">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="logNum" jdbcType="INTEGER" property="lognum" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="pmId" jdbcType="INTEGER" property="pmid" />
+    <result column="result" jdbcType="VARCHAR" property="result" />
+    <result column="ctime" jdbcType="TIMESTAMP" property="ctime" />
+  </resultMap>
+</mapper>

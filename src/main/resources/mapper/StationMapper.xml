@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.StationMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Station">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="areaName" jdbcType="VARCHAR" property="areaname" />
+    <result column="ownerId" jdbcType="INTEGER" property="ownerid" />
+    <result column="provinceId" jdbcType="INTEGER" property="provinceid" />
+    <result column="cityId" jdbcType="INTEGER" property="cityid" />
+    <result column="districtId" jdbcType="INTEGER" property="districtid" />
+    <result column="industryId" jdbcType="VARCHAR" property="industryid" />
+    <result column="gps_lng" jdbcType="VARCHAR" property="gpsLng" />
+    <result column="gps_lat" jdbcType="VARCHAR" property="gpsLat" />
+    <result column="ctime" jdbcType="TIMESTAMP" property="ctime" />
+    <result column="isdel" jdbcType="BIT" property="isdel" />
+  </resultMap>
+</mapper>

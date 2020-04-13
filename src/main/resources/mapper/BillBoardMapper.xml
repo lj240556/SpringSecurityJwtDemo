@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.BillBoardMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.BillBoard">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="pmid" jdbcType="INTEGER" property="pmid" />
+    <result column="objTypeId" jdbcType="INTEGER" property="objtypeid" />
+    <result column="via" jdbcType="VARCHAR" property="via" />
+    <result column="objId" jdbcType="INTEGER" property="objid" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="rtime" jdbcType="TIMESTAMP" property="rtime" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="ctime" jdbcType="TIMESTAMP" property="ctime" />
+    <result column="isdel" jdbcType="BIT" property="isdel" />
+  </resultMap>
+</mapper>
