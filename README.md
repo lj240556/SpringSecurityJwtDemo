@@ -1,7 +1,7 @@
 # spring-boot-api
 
 #### 介绍
-最基础的spring-boot web项目
+SpringBoot和JWT简单的结合  开发模板
 
 #### 软件架构
 软件架构说明
